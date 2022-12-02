@@ -1,0 +1,36 @@
+.MuiAppBar-colorPrimary {
+  background-image: linear-gradient(to right, #28313B , #485461);
+}
+
+.navbar {
+  margin-bottom: 1.5rem;
+}
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.navbar__title {
+  margin: 0.5rem 0;
+  font-weight: bold;
+  color:#ffffff;
+}
+.navbar__title-link {
+  text-decoration: none;
+}
+.navbar__item {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 1rem;
+  margin: 0.2rem 0;
+  display: inline-block;
+  transition: background-color 0.3s ease-in-out;
+}
+hover {
+  background-color: #121212;
+}
+
+.search_bar {
+    background-color: #ffffff;
+}

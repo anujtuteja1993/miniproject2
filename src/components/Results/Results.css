@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: center;
+    margin-left: 4rem;
+    margin-right: 3rem;
+}
+
+.gamecard {
+    justify-content: center;
+    border-style: solid;
+    border-width: 1px;
+    margin: 1rem;
+}
