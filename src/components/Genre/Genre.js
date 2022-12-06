@@ -25,6 +25,7 @@ function Genre() {
           {
             genre.map(genre => (
     
+              // would be good to turn the below into its own custom component to save duplicating it in genre, recommended and results 
               <Card className='gamecard' sx={{ maxWidth: 345 }}>
                 <CardActionArea>
                   <CardMedia

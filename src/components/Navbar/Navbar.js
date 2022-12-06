@@ -7,7 +7,7 @@ import './Navbar.css';
 import Search from '../Search/Search';
 
 
-const Navbar = () => (
+const Navbar = (props) => (
   <AppBar position="sticky" className="navbar">
     <Toolbar className="navbar__container">
       <Link to="/" className="navbar__title-link text-white">
@@ -30,7 +30,7 @@ const Navbar = () => (
           Publishers
         </Typography>
       </Link>
-      <Search />
+      <Search {...props}/> {/* passing down props for the results handler function */}
 
     </Toolbar>
   </AppBar>
